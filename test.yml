@@ -2,7 +2,7 @@ resources:
   - name: git-repo
     type: git
     source:
-      uri: https://github.com/niteesh6024/concourse.git 
+      uri: https://github.com/sirisha22/Pipelinetest.git
 jobs:
   - name: build-docker-image
     plan:
